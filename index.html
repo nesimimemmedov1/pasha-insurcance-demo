@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -34,10 +34,12 @@
         </div>
         <div class="header-mid">
             <ul class="links">
-                <li>
-                    <a class="active" href="#life">Fərdi</a></li>
-                <li>
-                    <a href="#business">Korporativ</a></li>
+                <li class="insurance-menu">
+                    <a class="active" href="#life">Fərdi</a>
+                </li>
+                <li class="business-menu">
+                    <a href="#business">Korporativ</a>
+                </li>
             </ul>
         </div>
         <div class="header-right">
@@ -46,9 +48,25 @@
                 <h6>*7000</h6>
             </div>
             <div class="pay">
-                <a href="#">
-                   Onlayn Ödəniş
-                </a>
+                <a class="title" href="#">Onlayn Ödəniş</a>
+                <ul class="payment-menu">
+                    <h3>Onlayn sığortanı ödəyin</h3>
+                    <li>
+                        <a href="#">Hökumət ödəniş portalı</a>
+                    </li>
+                    <li>
+                        <a href="#">Kassam.az</a>
+                    </li>
+                    <li>
+                        <a href="#">Hesab.az</a>
+                    </li>
+                    <li>
+                        <a href="#">Epul.az</a>
+                    </li>
+                    <li class="close-menu">
+                        <a href="javascript:void(0)">Bağla</a>
+                    </li>
+                </ul>
             </div>
             <div class="notification">
                 <div class="links">
@@ -141,81 +159,196 @@
         </div>
     </section>
     <!-- //main-section -->
-    <!-- main-menu -->
-    <div id="main-menu">
-        <div class="container">
-            <div class="content">
-                <form id="input-group" action="#">
-                    <span><img src="/img/search.png" alt="">Nə axtarırsınız?</span>
-                    <input type="text">
-                </form>
-                <div class="cats-item">
-                    <div class="cat">
-                        <div class="cat-bg left-cat"></div>
-                        <div class="cat-text">
-                            <p>Evim gözəl evim</p>
-                            <h1>Əmlak <br> siğortası</h1>
-                            <ul class="list">
-                                <li><a href="#">İcbari siğorta</a></li>
-                                <li><a href="#">Yaşıl bakı</a></li>
-                                <li><a href="#">Səyahət zamanı</a></li>
-                                <li><a href="#">EVrika</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="cat">
-                        <div class="cat-bg mid-cat"></div>
-                        <div class="cat-text">
-                            <p>Avtomobili güvənlə sür</p>
-                            <h1>Nəqliyyat <br> siğortası</h1>
-                            <ul class="list">
-                                <li><a href="#">İcbari siğorta</a></li>
-                                <li><a href="#">Tam KASKO</a></li>
-                                <li><a href="#">Sənin KASKOn</a></li>
-                                <li><a href="#">Optimal KASKO</a></li>
-                                <li><a href="#">Parkinq KASKO</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cat">
-                        <div class="cat-bg right-cat"></div>
-                        <div class="cat-text">
-                            <p>Əminliklə səyahət et</p>
-                            <h1>Səfər <br> sığortası</h1>
-                            <ul class="list">
-                                <li><a href="#">Ölkəxarici</a></li>
-                                <li><a href="#">Ölkədaxili</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- //main-menu -->
     <!-- right-menu -->
     <div id="right-menu">
         <ul class="menu">
             <li class="menu-item">
-                <a href="#"><img src="/img/menuimg1.png" alt="">Şəxsi kabinet</a>
+                <a class="item" href="javascript:void(0)"><img src="/img/menuimg1.png" alt="">
+                    <div class="menubloor"></div>
+                    Şəxsi kabinet
+                </a>
+                <ul class="dropdown_menu">
+                    <h3>Şəxsi kabinet</h3>
+                    <li>
+                        <a href="#"><img src="/img/menuimg6.png" alt="">Təmir prosesini izlə</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg7.png" alt="">Şəhadətnaməni yüklə</a>
+                    </li>
+                    <li>
+                        <a class="close-menu" href="javascript:void(0)">Bağla</a>
+                    </li>
+                </ul>
             </li>
             <li class="menu-item">
-                <a href="#"><img src="/img/menuimg2.png" alt="">Tibbi xidmətlər</a>
+                <a class="item" href="javascript:void(0)">
+                    <img src="/img/menuimg2.png" alt="">
+                    <div class="menubloor"></div>
+                    Tibbi xidmətlər
+                </a>
+                <ul class="dropdown_menu">
+                    <h3>Şəxsi kabinet</h3>
+                    <li>
+                        <a href="#"><img src="/img/menuimg8.png" alt="">Həkimə qeydiyyat</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg9.png" alt="">Aptek şəbəkəsi</a>
+                    </li>
+                    <li>
+                        <a class="close-menu" href="javascript:void(0)">Bağla</a>
+                    </li>
+                </ul>
             </li>
             <li class="menu-item">
-                <a href="#"><img src="/img/menuimg3.png" alt="">Onlayn əldə et</a>
+                <a class="item" href="javascript:void(0)"><img src="/img/menuimg3.png" alt="">
+                    <div class="menubloor"></div>
+                    Onlayn əldə et
+                </a>
+                <ul class="dropdown_menu">
+                    <h3>Şəxsi kabinet</h3>
+                    <li>
+                        <a href="#"><img src="/img/menuimg10.png" alt="">İcbari Avto</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg11.png" alt="">Ödəniş qaydaları</a>
+                    </li>
+                    <li>
+                        <a class="close-menu" href="javascript:void(0)">Bağla</a>
+                    </li>
+                </ul>
             </li>
             <li class="menu-item">
-                <a href="/"><img src="/img/menuimg4.png" alt="">Karyera</a>
+                <a class="item" href="/"><img src="/img/menuimg4.png" alt="">
+                    <div class="menubloor"></div>
+                    Karyera
+                </a>
             </li>
             <li class="menu-item">
-                <a href="#"><img src="/img/menuimg5.png" alt="">Müştəri və şirkəti</a>
+                <a class="item" href="javascript:void(0)"><img src="/img/menuimg5.png" alt="">
+                    <div class="menubloor"></div>
+                    Müştəri və şirkəti
+                </a>
+                <ul class="dropdown_menu">
+                    <h3>Şəxsi kabinet</h3>
+                    <li>
+                        <a href="#"><img src="/img/menuimg12.png" alt="">Siyasət</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg13.png" alt="">Müştəri müraciəti</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg14.png" alt="">Bizimlə Partnyorluq</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/menuimg15.png" alt="">Məxfilik siyasəti</a>
+                    </li>
+                    <li>
+                        <a class="close-menu" href="javascript:void(0)">Bağla</a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>
     <!-- //right-menu -->
+    <!-- business -->
+    <div id="business-section">
+        <div class="container">
+            <div class="content">
+                <h1>Korporativ <br> sığorta</h1>
+                <p>Bizim missiyamız maliyyə vəsaitlərimiz, işçilərimizin peşəkarlığı, qabaqcıl anderraytinq bacarıqları və qüsursuz müştəri xidmətləri vasitəsilə ən tələbkar müştərilərimizin gözləntilərini aşmaq və onların sadiq sığorta tərəfdaşına çevrilməkdir.</p>
+                <ul class="business-links">
+                    <li><a href="#">Paşa Siğorta</a></li>
+                    <li><a href="#">Tərəfdaş və müştərilərimiz</a></li>
+                    <li><a href="#">Sığorta növləri</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //business -->
+    <!-- insurance-menu -->
+    <div id="insurance-menu">
+        <div class="container">
+            <div class="content">
+                <form id="input-group" action="#">
+                    <span class="search-text"><img src="/img/search.png" alt="">Nə axtarırsınız?</span>
+                    <input id="search" type="text">
+                </form>
+                <div class="corporative-insurance">
+                    <h1>Korporativ sığorta</h1>
+                    <div class="corporative-links">
+                        <ul>
+                            <li><a href="#">Nəqliyyat sığortası</a></li>
+                            <li><a href="#">Könüllü tibbi sığorta</a></li>
+                            <li><a href="#">İnşaat sığortası</a></li>
+                            <li><a href="#">Energetik risklərin sığortası</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Əmlak sığortası</a></li>
+                            <li><a href="#">Yük sığortası</a></li>
+                            <li><a href="#">Fərdi qəza sığortası</a></li>
+                            <li><a href="#">Heyvanların sığortası</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Səyahət sığortası</a></li>
+                            <li><a href="#">Məsuliyyət sığortası</a></li>
+                            <li><a href="#">Gəmi sığortası</a></li>
+                            <li><a href="#">Bitkilərin sığortası</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cats-item">
+                    <div class="items">
+                        <div class="cat">
+                            <div class="cat-bg left-cat"></div>
+                            <div class="cat-text">
+                                <p>Evim gözəl evim</p>
+                                <h1>Əmlak <br> siğortası</h1>
+                                <ul class="list">
+                                    <li><a href="#">İcbari siğorta</a></li>
+                                    <li><a href="#">Yaşıl bakı</a></li>
+                                    <li><a href="#">Səyahət zamanı</a></li>
+                                    <li><a href="#">EVrika</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cat">
+                            <div class="cat-bg mid-cat"></div>
+                            <div class="cat-text">
+                                <p>Avtomobili güvənlə sür</p>
+                                <h1>Nəqliyyat <br> siğortası</h1>
+                                <ul class="list">
+                                    <li><a href="#">İcbari siğorta</a></li>
+                                    <li><a href="#">Tam KASKO</a></li>
+                                    <li><a href="#">Sənin KASKOn</a></li>
+                                    <li><a href="#">Optimal KASKO</a></li>
+                                    <li><a href="#">Parkinq KASKO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cat">
+                            <div class="cat-bg right-cat"></div>
+                            <div class="cat-text">
+                                <p>Əminliklə səyahət et</p>
+                                <h1>Səfər <br> sığortası</h1>
+                                <ul class="list">
+                                    <li><a href="#">Ölkəxarici</a></li>
+                                    <li><a href="#">Ölkədaxili</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="bottom-links">
+                    <li><a href="#">Digər sığorta növləri</a></li>
+                    <li><a href="#">Təkrarsığorta</a></li>
+                    <li><a href="#">KSM Siyasətimiz</a></li>
+                    <li><a href="#">Sual-cavab</a></li>
+                    <li><a href="#">Sığorta hadisəsi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //insurance-menu -->
     <!-- footer -->
     <footer id="footer">
         <div class="footer-left">
